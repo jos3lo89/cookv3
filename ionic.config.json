@@ -1,0 +1,7 @@
+{
+  "name": "cookv3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
