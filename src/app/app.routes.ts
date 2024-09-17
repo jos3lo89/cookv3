@@ -12,14 +12,16 @@ export const routes: Routes = [
   },
   {
     path: 'profile',
-    loadComponent: () => import('./profile/profile.page').then( m => m.ProfilePage)
+    loadComponent: () =>
+      import('./profile/profile.page').then((m) => m.ProfilePage),
   },
   {
     path: 'admin',
-    loadComponent: () => import('./admin/admin.page').then( m => m.AdminPage)
+    loadComponent: () => import('./admin/admin.page').then((m) => m.AdminPage),
   },
   {
     path: 'detail',
-    loadComponent: () => import('./detail/detail.page').then( m => m.DetailPage)
+    loadComponent: () =>
+      import('./detail/detail.page').then((m) => m.DetailPage),
   },
 ];
